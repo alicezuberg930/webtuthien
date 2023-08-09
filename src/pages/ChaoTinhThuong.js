@@ -1,13 +1,10 @@
-import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
+import Section from "../components/Section";
 import Footer from "../components/Footer";
-import { importAll } from "../utils/import_img";
-const images = importAll(
-  require.context("../assets/chao_tinh_thuong", false, /\.(png|jpe?g|svg)$/)
-);
+import ActivityBody from "../components/ActivityBody";
 
 function ChaoTinhThuong() {
-  let chaoArray = [
+  let mainArray = [
     {
       image: "chao-tinh-thuong-1.jpg",
       title: "Cháo Tình Thương T07.2018",
@@ -65,54 +62,16 @@ function ChaoTinhThuong() {
       description: "No description",
       key: 8,
     },
-    {
-      image: "chao-tinh-thuong-1.jpg",
-      title: "CHÁO TÌNH THƯƠNG 18.03.2018 (BV. CHỢ RẪY)",
-      description: "No description",
-      key: 9,
-    },
-    {
-      image: "chao-tinh-thuong-1.jpg",
-      title: "CHÁO TÌNH THƯƠNG 18.03.2018 (BV. CHỢ RẪY)",
-      description: "No description",
-      key: 10,
-    },
   ];
-  let tempChao = [];
-  for (let i = 0; i < chaoArray.length / 2; i++) {
-    tempChao.push(i);
+  let numberOfCardsPerRow = [];
+  for (let i = 0; i < mainArray.length / 2; i++) {
+    numberOfCardsPerRow.push("unique_" + i);
   }
   return (
     <>
       <Header />
-      <div className="container mt-5 mb-5">
-        {tempChao.map((chap, index) => {
-          return (
-            <div className="row" key={index}>
-              {chaoArray.slice(index + 2, index * 2 + 2).map((chao) => {
-                return (
-                  <div className="col-6" key={index}>
-                    <div className="card w-100">
-                      <img
-                        className="card-img-top"
-                        src={images[chao.image]}
-                        alt="Card image cap"
-                      />
-                      <div className="card-body">
-                        <h5 className="card-title">{chao.title}</h5>
-                        <p className="card-text">{chao.description}</p>
-                        <a href="#" className="btn btn-primary">
-                          Go somewhere
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          );
-        })}
-      </div>
+      <Section title={"HOẠT ĐỘNG CHÁO TÌNH THƯƠNG"} />
+      <ActivityBody cardInfos={{ mainArray, numberOfCardsPerRow }} />
       <Footer />
     </>
   );

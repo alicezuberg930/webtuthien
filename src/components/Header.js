@@ -11,7 +11,7 @@ export default function Header() {
       <nav className="navbar navbar-expand-md navbar-dark font-weight-bold d-flex">
         <a href="/" className="position-relative">
           <img
-            src={images["logo-nhom anh sang.png"]}
+            src={images["logo.png"]}
             width="50"
             height="50"
             className="d-inline-block mr-3"
@@ -44,10 +44,36 @@ export default function Header() {
           id="navbarText"
         >
           <ul className="navbar-nav mr-auto justify-content-end flex-grow-1">
-            <li className="nav-item vertical-divider pr-3 pl-3">
-              <a className="nav-link">
-                <span className="main-theme">Giới thiệu</span>
+            <li className="nav-item vertical-divider pl-3 pr-3 dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                style={{ color: "purple" }}
+              >
+                <span>Giới thiệu</span>
               </a>
+              <div
+                className="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <Link to="/rule" className="text-decoration-none">
+                  <span className="dropdown-item main-theme">Quy định</span>
+                </Link>
+                <Link to="/criteria" className="text-decoration-none">
+                  <span className="dropdown-item main-theme">
+                    Tiêu chí nhóm
+                  </span>
+                </Link>
+                <Link to="/structure" className="text-decoration-none">
+                  <span className="dropdown-item main-theme">
+                    Cơ cấu tổ chức
+                  </span>
+                </Link>
+              </div>
             </li>
             <li className="nav-item vertical-divider pl-3 pr-3 dropdown">
               <a
@@ -59,34 +85,34 @@ export default function Header() {
                 aria-expanded="false"
                 style={{ color: "purple" }}
               >
-                <span className="">Hoạt động</span>
+                <span>Hoạt động</span>
               </a>
               <div
                 className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <Link to="/chao-tinh-thuong" className="text-decoration-none">
-                  <a className="dropdown-item main-theme" href="#">
+                  <span className="dropdown-item main-theme">
                     Cháo tình thương
-                  </a>
+                  </span>
                 </Link>
                 <Link
                   to="/chuong-trinh-thuong-nien"
                   className="text-decoration-none"
                 >
-                  <a className="dropdown-item main-theme" href="#">
+                  <span className="dropdown-item main-theme">
                     Chương trình thường niên
-                  </a>
+                  </span>
                 </Link>
                 <Link to="/ho-tro-hoan-canh" className="text-decoration-none">
-                  <a className="dropdown-item main-theme" href="#">
+                  <span className="dropdown-item main-theme">
                     Hỗ trợ hoàn cảnh
-                  </a>
+                  </span>
                 </Link>
                 <Link to="/tiep-suc-tri-thuc" className="text-decoration-none">
-                  <a className="dropdown-item main-theme" href="#">
+                  <span className="dropdown-item main-theme">
                     Tiếp sức tri thức
-                  </a>
+                  </span>
                 </Link>
               </div>
             </li>
@@ -107,28 +133,26 @@ export default function Header() {
                 aria-expanded="false"
                 style={{ color: "purple" }}
               >
-                <span className="">Dịch vụ</span>
+                <span>Dịch vụ</span>
               </a>
               <div
                 className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <Link to="/design" className="text-decoration-none">
-                  <a className="dropdown-item main-theme" href="#">
-                    Thiết kế
-                  </a>
+                  <span className="dropdown-item main-theme">Thiết kế</span>
                 </Link>
                 <Link to="/photoshoot" className="text-decoration-none">
-                  <a className="dropdown-item main-theme" href="#">
-                    Chụp ảnh
-                  </a>
+                  <span className="dropdown-item main-theme">Chụp ảnh</span>
                 </Link>
               </div>
             </li>
             <li className="nav-item pl-3">
-              <a className="nav-link">
-                <span className="main-theme">Liên hệ</span>
-              </a>
+              <Link to="/contact" className="text-decoration-none">
+                <span className="nav-link">
+                  <span className="main-theme">Liên hệ</span>
+                </span>
+              </Link>
             </li>
           </ul>
         </div>

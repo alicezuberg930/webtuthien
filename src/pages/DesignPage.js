@@ -11,11 +11,10 @@ function DesignPage() {
   return (
     <>
       <Header />
-      <div className="mt-5"></div>
-      <Section
-        title={"NHẬN THIẾT KẾ TỜ RƠI, BROCHURE, BANNER, ALBUM, QUẢNG CÁO"}
-      />
       <div className="container">
+        <Section
+          title={"NHẬN THIẾT KẾ TỜ RƠI, BROCHURE, BANNER, ALBUM, QUẢNG CÁO"}
+        />
         <div className="row mt-3 mb-3">
           <div className="col small-12 large-12">
             <div className="col-inner image-container-2">

@@ -8,6 +8,11 @@ import ChaoTinhThuong from "./pages/ChaoTinhThuong";
 import ChuongTrinhThuongNien from "./pages/ChuongTrinhThuongNien";
 import HoTroHoanCanh from "./pages/HoTroHoanCanh";
 import TiepSucTriThuc from "./pages/TiepSucTriThuc";
+import RulePage from "./pages/RulePage";
+import CriteriaPage from "./pages/CriteriaPage";
+import StructurePage from "./pages/StructurePage";
+import ContactPage from "./pages/ContactPage";
+
 function App() {
   return (
     <Routes>
@@ -22,6 +27,10 @@ function App() {
       />
       <Route path="/ho-tro-hoan-canh" element={<HoTroHoanCanh />} />
       <Route path="/tiep-suc-tri-thuc" element={<TiepSucTriThuc />} />
+      <Route path="/rule" element={<RulePage />} />
+      <Route path="/criteria" element={<CriteriaPage />} />
+      <Route path="/structure" element={<StructurePage />} />
+      <Route path="/contact" element={<ContactPage />} />
     </Routes>
   );
 }

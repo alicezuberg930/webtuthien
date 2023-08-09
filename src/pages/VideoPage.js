@@ -65,7 +65,6 @@ function VideoPage() {
   return (
     <div>
       <Header />
-      <div className="mt-5"></div>
       <Section title={"VIDEO CHÁO TÌNH THƯƠNG"} />
       <PlayList id={Constants.PLAYLIST_1} videos={playList_1} />
       <Section title={"VIDEO TIẾP SỨC TRI THỨC"} />
