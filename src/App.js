@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useEffect, useState } from "react";
+import { Routes, Route } from "react-router-dom";
+import VideoPage from "./pages/VideoPage";
+import IndexPage from "./pages/IndexPage";
+import DesignPage from "./pages/DesignPage";
+import PhotoshootPage from "./pages/PhotoshootPage";
+import ChaoTinhThuong from "./pages/ChaoTinhThuong";
+import ChuongTrinhThuongNien from "./pages/ChuongTrinhThuongNien";
+import HoTroHoanCanh from "./pages/HoTroHoanCanh";
+import TiepSucTriThuc from "./pages/TiepSucTriThuc";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<IndexPage />} />
+      <Route path="/design" element={<DesignPage />} />
+      <Route path="/photoshoot" element={<PhotoshootPage />} />
+      <Route path="/video" element={<VideoPage />} />
+      <Route path="/chao-tinh-thuong" element={<ChaoTinhThuong />} />
+      <Route
+        path="/chuong-trinh-thuong-nien"
+        element={<ChuongTrinhThuongNien />}
+      />
+      <Route path="/ho-tro-hoan-canh" element={<HoTroHoanCanh />} />
+      <Route path="/tiep-suc-tri-thuc" element={<TiepSucTriThuc />} />
+    </Routes>
   );
 }
 

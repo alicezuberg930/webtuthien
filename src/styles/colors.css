@@ -1,0 +1,86 @@
+.main-theme {
+  color: purple;
+}
+
+.vertical-divider {
+  border-right: 2px solid purple;
+}
+
+.dotted-horizontal-divider {
+  border-bottom: 2px dotted purple;
+}
+
+.card {
+  margin: 0 0.5rem;
+  width: calc(100% / 3);
+}
+
+.image-wrapper {
+  height: 30vh;
+}
+
+.image-wrapper img {
+  object-fit: cover;
+  max-height: 100%;
+  width: 100%;
+}
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 55px;
+  color: red;
+} */
+
+.section-title-main {
+  text-align: center;
+  border: 1px solid purple;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin: 0;
+}
+
+.image-container {
+  color: purple;
+  border: 10px solid purple;
+  border-image: repeating-linear-gradient(
+      45deg,
+      pink,
+      pink 1%,
+      purple 1%,
+      purple 8%
+    )
+    10;
+}
+
+.image-container:hover {
+  border-image: repeating-linear-gradient(
+      45deg,
+      purple,
+      purple 1%,
+      pink 1%,
+      pink 8%
+    )
+    10;
+  color: purple;
+}
+
+.image-container-2 {
+  border: 10px solid transparent;
+  border-image: url(../assets/border.png) 30 round;
+}
