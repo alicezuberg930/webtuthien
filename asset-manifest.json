@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webtuthien/static/css/main.23ad85bf.css",
-    "main.js": "/webtuthien/static/js/main.1eb0486f.js",
+    "main.js": "/webtuthien/static/js/main.e6d1e0e2.js",
     "static/js/787.3af6ac85.chunk.js": "/webtuthien/static/js/787.3af6ac85.chunk.js",
     "static/media/chao.jpg": "/webtuthien/static/media/chao.6c21bfe3d4e512087fa3.jpg",
     "static/media/tiep-suc-tri-thuc.jpg": "/webtuthien/static/media/tiep-suc-tri-thuc.de6262b0db13b4aa5d0c.jpg",
@@ -73,11 +73,11 @@
     "static/media/youtube.png": "/webtuthien/static/media/youtube.7cedfa3a8bc7d3993313.png",
     "index.html": "/webtuthien/index.html",
     "main.23ad85bf.css.map": "/webtuthien/static/css/main.23ad85bf.css.map",
-    "main.1eb0486f.js.map": "/webtuthien/static/js/main.1eb0486f.js.map",
+    "main.e6d1e0e2.js.map": "/webtuthien/static/js/main.e6d1e0e2.js.map",
     "787.3af6ac85.chunk.js.map": "/webtuthien/static/js/787.3af6ac85.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.23ad85bf.css",
-    "static/js/main.1eb0486f.js"
+    "static/js/main.e6d1e0e2.js"
   ]
 }
