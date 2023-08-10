@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webtuthien/static/css/main.c13eb2ce.css",
-    "main.js": "/webtuthien/static/js/main.33f2cf9b.js",
+    "main.js": "/webtuthien/static/js/main.e5d1da60.js",
     "static/js/787.3af6ac85.chunk.js": "/webtuthien/static/js/787.3af6ac85.chunk.js",
     "static/media/chao.jpg": "/webtuthien/static/media/chao.6c21bfe3d4e512087fa3.jpg",
     "static/media/tiep-suc-tri-thuc.jpg": "/webtuthien/static/media/tiep-suc-tri-thuc.de6262b0db13b4aa5d0c.jpg",
@@ -42,10 +42,13 @@
     "static/media/cung-be-den-truong-a.jpg": "/webtuthien/static/media/cung-be-den-truong-a.0ec5d589b246ebf35338.jpg",
     "static/media/zalo.png": "/webtuthien/static/media/zalo.24588d04652c684bcdc1.png",
     "static/media/logo.png": "/webtuthien/static/media/logo.9c80bd3a2b5e9ae8408d.png",
-    "static/media/preview_1.jpg": "/webtuthien/static/media/preview_1.aca8bb01c173c9627376.jpg",
+    "static/media/preview_2.jpg": "/webtuthien/static/media/preview_2.115ed9b6a51846a714ba.jpg",
+    "static/media/preview_1.jpg": "/webtuthien/static/media/preview_1.884889ab9b88328190f9.jpg",
+    "static/media/preview_3.jpg": "/webtuthien/static/media/preview_3.51088351432b9fe8de1c.jpg",
     "static/media/chao-tinh-thuong-3.jpg": "/webtuthien/static/media/chao-tinh-thuong-3.3f6bdd3828e49db9b6c7.jpg",
     "static/media/zippo_banner_2.jpg": "/webtuthien/static/media/zippo_banner_2.2a4c109bba25bf2a69fa.jpg",
     "static/media/Mua-He-Yeu-Thuong-2018-1400x700.jpg": "/webtuthien/static/media/Mua-He-Yeu-Thuong-2018-1400x700.dbf240ff65053db74b40.jpg",
+    "static/media/preview_4.jpg": "/webtuthien/static/media/preview_4.1871032564030826e4c1.jpg",
     "static/media/zippo_banner_1.jpg": "/webtuthien/static/media/zippo_banner_1.1f59632167ef2a41525c.jpg",
     "static/media/cung-be-den-truong-2017-35-768x543.jpg": "/webtuthien/static/media/cung-be-den-truong-2017-35-768x543.56bb5e05dbbd2ac31408.jpg",
     "static/media/canh-en-mua-xuan-23-768x512.jpg": "/webtuthien/static/media/canh-en-mua-xuan-23-768x512.90780efc2f2c9474d4e7.jpg",
@@ -60,25 +63,22 @@
     "static/media/hoan-canh-kho-khan.jpg": "/webtuthien/static/media/hoan-canh-kho-khan.ed8c2021203db741d5c1.jpg",
     "static/media/mua-he-yeu-thuong-2018-43-768x512.jpg": "/webtuthien/static/media/mua-he-yeu-thuong-2018-43-768x512.0043f763db0e4569654b.jpg",
     "static/media/vu-lan-trang-2016-23-768x432.jpg": "/webtuthien/static/media/vu-lan-trang-2016-23-768x432.85d49e6cc55c84ae1fd6.jpg",
-    "static/media/preview_3.jpg": "/webtuthien/static/media/preview_3.0805ff76cf9e2fbd2f63.jpg",
-    "static/media/preview_4.jpg": "/webtuthien/static/media/preview_4.2804a1053b3bc8432ce3.jpg",
     "static/media/mua-dong-am-ap-2016-40.jpg": "/webtuthien/static/media/mua-dong-am-ap-2016-40.d17e64d60a59ea300cfe.jpg",
     "static/media/vu-lan-trang-2017-27-600x450.jpg": "/webtuthien/static/media/vu-lan-trang-2017-27-600x450.fde12f788e8d14a6130b.jpg",
     "static/media/cam-thuong-7.jpg": "/webtuthien/static/media/cam-thuong-7.253cb2d3d50580906013.jpg",
     "static/media/vui-mua-trung-thu-2017-24-768x512.jpg": "/webtuthien/static/media/vui-mua-trung-thu-2017-24-768x512.551c3a5953333c0bd0ad.jpg",
     "static/media/mua-dong-am-ap-2017-20-600x450.jpg": "/webtuthien/static/media/mua-dong-am-ap-2017-20-600x450.0b420c2e2c734fc9e130.jpg",
-    "static/media/preview_2.jpg": "/webtuthien/static/media/preview_2.b7e6914808ab07c1f632.jpg",
     "static/media/organizational_chart.jpg": "/webtuthien/static/media/organizational_chart.062a4ed06fb800eb3dd6.jpg",
     "static/media/UTM_HelvetIns.ttf": "/webtuthien/static/media/UTM_HelvetIns.eab2dcecd0e554ebf0fc.ttf",
     "static/media/tiep-suc-tri-thuc-tre-600x450.jpg": "/webtuthien/static/media/tiep-suc-tri-thuc-tre-600x450.d004c194d123fe618891.jpg",
     "static/media/youtube.png": "/webtuthien/static/media/youtube.7cedfa3a8bc7d3993313.png",
     "index.html": "/webtuthien/index.html",
     "main.c13eb2ce.css.map": "/webtuthien/static/css/main.c13eb2ce.css.map",
-    "main.33f2cf9b.js.map": "/webtuthien/static/js/main.33f2cf9b.js.map",
+    "main.e5d1da60.js.map": "/webtuthien/static/js/main.e5d1da60.js.map",
     "787.3af6ac85.chunk.js.map": "/webtuthien/static/js/787.3af6ac85.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c13eb2ce.css",
-    "static/js/main.33f2cf9b.js"
+    "static/js/main.e5d1da60.js"
   ]
 }
