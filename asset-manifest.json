@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webtuthien/static/css/main.23ad85bf.css",
-    "main.js": "/webtuthien/static/js/main.e6d1e0e2.js",
+    "main.css": "/webtuthien/static/css/main.c13eb2ce.css",
+    "main.js": "/webtuthien/static/js/main.33f2cf9b.js",
     "static/js/787.3af6ac85.chunk.js": "/webtuthien/static/js/787.3af6ac85.chunk.js",
     "static/media/chao.jpg": "/webtuthien/static/media/chao.6c21bfe3d4e512087fa3.jpg",
     "static/media/tiep-suc-tri-thuc.jpg": "/webtuthien/static/media/tiep-suc-tri-thuc.de6262b0db13b4aa5d0c.jpg",
@@ -69,15 +69,16 @@
     "static/media/mua-dong-am-ap-2017-20-600x450.jpg": "/webtuthien/static/media/mua-dong-am-ap-2017-20-600x450.0b420c2e2c734fc9e130.jpg",
     "static/media/preview_2.jpg": "/webtuthien/static/media/preview_2.b7e6914808ab07c1f632.jpg",
     "static/media/organizational_chart.jpg": "/webtuthien/static/media/organizational_chart.062a4ed06fb800eb3dd6.jpg",
+    "static/media/UTM_HelvetIns.ttf": "/webtuthien/static/media/UTM_HelvetIns.eab2dcecd0e554ebf0fc.ttf",
     "static/media/tiep-suc-tri-thuc-tre-600x450.jpg": "/webtuthien/static/media/tiep-suc-tri-thuc-tre-600x450.d004c194d123fe618891.jpg",
     "static/media/youtube.png": "/webtuthien/static/media/youtube.7cedfa3a8bc7d3993313.png",
     "index.html": "/webtuthien/index.html",
-    "main.23ad85bf.css.map": "/webtuthien/static/css/main.23ad85bf.css.map",
-    "main.e6d1e0e2.js.map": "/webtuthien/static/js/main.e6d1e0e2.js.map",
+    "main.c13eb2ce.css.map": "/webtuthien/static/css/main.c13eb2ce.css.map",
+    "main.33f2cf9b.js.map": "/webtuthien/static/js/main.33f2cf9b.js.map",
     "787.3af6ac85.chunk.js.map": "/webtuthien/static/js/787.3af6ac85.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23ad85bf.css",
-    "static/js/main.e6d1e0e2.js"
+    "static/css/main.c13eb2ce.css",
+    "static/js/main.33f2cf9b.js"
   ]
 }
