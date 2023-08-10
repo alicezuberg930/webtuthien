@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webtuthien/static/css/main.7bdb9ccc.css",
-    "main.js": "/webtuthien/static/js/main.11378753.js",
+    "main.css": "/webtuthien/static/css/main.eed4d15a.css",
+    "main.js": "/webtuthien/static/js/main.0df3f4b7.js",
     "static/js/787.3af6ac85.chunk.js": "/webtuthien/static/js/787.3af6ac85.chunk.js",
     "static/media/chao.jpg": "/webtuthien/static/media/chao.6c21bfe3d4e512087fa3.jpg",
     "static/media/tiep-suc-tri-thuc.jpg": "/webtuthien/static/media/tiep-suc-tri-thuc.de6262b0db13b4aa5d0c.jpg",
@@ -72,14 +72,20 @@
     "static/media/organizational_chart.jpg": "/webtuthien/static/media/organizational_chart.062a4ed06fb800eb3dd6.jpg",
     "static/media/UTM_HelvetIns.ttf": "/webtuthien/static/media/UTM_HelvetIns.eab2dcecd0e554ebf0fc.ttf",
     "static/media/tiep-suc-tri-thuc-tre-600x450.jpg": "/webtuthien/static/media/tiep-suc-tri-thuc-tre-600x450.d004c194d123fe618891.jpg",
+    "static/media/tui-rut-du-lich-anh-sang-tu-thien.jpg": "/webtuthien/static/media/tui-rut-du-lich-anh-sang-tu-thien.8c0448e777ae85f39dfc.jpg",
+    "static/media/non-thoi-trang-soc-dua-2-300x300.jpg": "/webtuthien/static/media/non-thoi-trang-soc-dua-2-300x300.92c6855437d401b44e79.jpg",
+    "static/media/nuoc-uong-dong-chai-4-300x300.jpg": "/webtuthien/static/media/nuoc-uong-dong-chai-4-300x300.c14e76d762187ff69811.jpg",
+    "static/media/bo-ly-anh-sang-tu-thien-2019-300x300.jpg": "/webtuthien/static/media/bo-ly-anh-sang-tu-thien-2019-300x300.c6ce1db34db2ff135b62.jpg",
+    "static/media/Viet-bic-xanh-nhua-ma-kim-loai-3-300x300.jpg": "/webtuthien/static/media/Viet-bic-xanh-nhua-ma-kim-loai-3-300x300.590372ba9f5141b58ac1.jpg",
+    "static/media/moc-khoa-nhua-treo-deo-1-300x300.jpeg": "/webtuthien/static/media/moc-khoa-nhua-treo-deo-1-300x300.97126d3ba490db260b19.jpeg",
     "static/media/youtube.png": "/webtuthien/static/media/youtube.7cedfa3a8bc7d3993313.png",
     "index.html": "/webtuthien/index.html",
-    "main.7bdb9ccc.css.map": "/webtuthien/static/css/main.7bdb9ccc.css.map",
-    "main.11378753.js.map": "/webtuthien/static/js/main.11378753.js.map",
+    "main.eed4d15a.css.map": "/webtuthien/static/css/main.eed4d15a.css.map",
+    "main.0df3f4b7.js.map": "/webtuthien/static/js/main.0df3f4b7.js.map",
     "787.3af6ac85.chunk.js.map": "/webtuthien/static/js/787.3af6ac85.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bdb9ccc.css",
-    "static/js/main.11378753.js"
+    "static/css/main.eed4d15a.css",
+    "static/js/main.0df3f4b7.js"
   ]
 }
