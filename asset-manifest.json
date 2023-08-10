@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webtuthien/static/css/main.0879f1fe.css",
-    "main.js": "/webtuthien/static/js/main.fa3a4314.js",
+    "main.js": "/webtuthien/static/js/main.e5dba827.js",
     "static/js/787.3af6ac85.chunk.js": "/webtuthien/static/js/787.3af6ac85.chunk.js",
     "static/media/pngwing.com.png": "/webtuthien/static/media/pngwing.com.2e07fa3c34ef67515964.png",
     "static/media/chao.jpg": "/webtuthien/static/media/chao.6c21bfe3d4e512087fa3.jpg",
@@ -75,11 +75,11 @@
     "static/media/youtube.png": "/webtuthien/static/media/youtube.7cedfa3a8bc7d3993313.png",
     "index.html": "/webtuthien/index.html",
     "main.0879f1fe.css.map": "/webtuthien/static/css/main.0879f1fe.css.map",
-    "main.fa3a4314.js.map": "/webtuthien/static/js/main.fa3a4314.js.map",
+    "main.e5dba827.js.map": "/webtuthien/static/js/main.e5dba827.js.map",
     "787.3af6ac85.chunk.js.map": "/webtuthien/static/js/787.3af6ac85.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0879f1fe.css",
-    "static/js/main.fa3a4314.js"
+    "static/js/main.e5dba827.js"
   ]
 }
