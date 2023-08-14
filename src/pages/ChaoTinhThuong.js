@@ -270,7 +270,6 @@ function ChaoTinhThuong() {
       {
         banner: "chao-tinh-thuong-7.jpg",
         images: [
-          "chao-tinh-thuong-19-11-2017-bv-nhi-dong-1-13.jpg",
           "chao-tinh-thuong-19-11-2017-bv-nhi-dong-1-12.jpg",
           "chao-tinh-thuong-19-11-2017-bv-nhi-dong-1-11.jpg",
           "chao-tinh-thuong-19-11-2017-bv-nhi-dong-1-10.jpg",
