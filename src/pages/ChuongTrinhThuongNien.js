@@ -9,10 +9,29 @@ function ChuongTrinhThuongNien() {
     data: [
       {
         banner: "mua-he-yeu-thuong-2018-43-768x512.jpg",
-        images: [""],
+        images: [
+          "mua-he-yeu-thuong-2018-tinh-ninh-thuan-1.jpg",
+          "mua-he-yeu-thuong-2018-tinh-ninh-thuan-2.jpg",
+          "mua-he-yeu-thuong-2018-tinh-ninh-thuan-3.jpg",
+          "mua-he-yeu-thuong-2018-tinh-ninh-thuan-4.jpg",
+          "mua-he-yeu-thuong-2018-tinh-ninh-thuan-5.jpg",
+          "mua-he-yeu-thuong-2018-tinh-ninh-thuan-6.jpg",
+          "mua-he-yeu-thuong-2018-tinh-ninh-thuan-7.jpg",
+          "mua-he-yeu-thuong-2018-tinh-ninh-thuan-8.jpg",
+          "mua-he-yeu-thuong-2018-tinh-ninh-thuan-9.jpg",
+          "mua-he-yeu-thuong-2018-tinh-ninh-thuan-10.jpg",
+          "mua-he-yeu-thuong-2018-tinh-ninh-thuan-11.jpg",
+          "mua-he-yeu-thuong-2018-tinh-ninh-thuan-12.jpg",
+          "mua-he-yeu-thuong-2018-tinh-ninh-thuan-13.jpg",
+          "mua-he-yeu-thuong-2018-tinh-ninh-thuan-14.jpg",
+          "mua-he-yeu-thuong-2018-tinh-ninh-thuan-15.jpg",
+          "mua-he-yeu-thuong-2018-tinh-ninh-thuan-16.jpg",
+          "mua-he-yeu-thuong-2018-tinh-ninh-thuan-17.jpg",
+        ],
         title: "Mùa Hè Yêu Thương 2018 Tỉnh Ninh Thuận",
-        description:
-          "THÔNG TIN CHƯƠNG TRÌNH Xin chân thành cảm ơn các nhà hảo tâm, các thành viên và kjdfvit ghieridwfv heriuoheih heihhihdfv bwuebvufv gbeifvrhwc niugfvl kcevewiucbkjl[...]",
+        description: `Nhóm Ánh Sáng xin chân thành cảm ơn các mạnh thường quân gần xa đã cùng chung tay góp sức với nhóm để 
+        mang đến gần 200 phần quà cho các em có hoàn cảnh khó khăn tại Trường Tiểu Học Phước Tiến B, Thôn Suối Ruau, Xã Phước Tiến, 
+        Huyện Bắc Ái, Tỉnh Ninh Thuận. Kính chúc sức khỏe và may mắn sẽ đến với mọi người.`,
         key: 1,
       },
       {

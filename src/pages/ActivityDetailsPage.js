@@ -36,15 +36,19 @@ function ActivityDetailsPage() {
           </div>
         </div>
         <div className="row mt-4">
-          <div
-            className="col-12"
-            dangerouslySetInnerHTML={{ __html: details.description }}
-          ></div>
+          {details.description.includes("table") ? (
+            <div
+              className="col-12"
+              dangerouslySetInnerHTML={{ __html: details.description }}
+            ></div>
+          ) : (
+            <div className="col-12">{details.description}</div>
+          )}
         </div>
         <div className="row mt-4 mb-4">
           <div className="col-12 d-flex flex-column align-items-center">
             <div className="w-100 text-center">
-              <h3 className="main-theme">Hình ảnh thực hiện</h3>
+              <h3 className="main-theme">Hình ảnh thực hiện hoạt động</h3>
               <hr />
             </div>
             {details.images.map((image) => {
