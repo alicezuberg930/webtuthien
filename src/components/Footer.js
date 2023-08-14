@@ -1,4 +1,3 @@
-import "../styles/colors.css";
 import facebook from "../assets/icon/facebook.png";
 import zalo from "../assets/icon/zalo.png";
 import youtube from "../assets/icon/youtube.png";

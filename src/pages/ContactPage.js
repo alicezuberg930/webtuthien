@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Section from "../components/Section";
-import chart from "../assets/other/organizational_chart.jpg";
 import GoogleMap from "../components/GoogleMap";
 
 function ContactPage() {
@@ -20,7 +18,10 @@ function ContactPage() {
                 <p>
                   <strong>
                     Website:
-                    <a href="https://anhsangtuthien.com"> www.anhsangtuthien.com</a>
+                    <a href="https://anhsangtuthien.com">
+                      {" "}
+                      www.anhsangtuthien.com
+                    </a>
                   </strong>
                 </p>
               </li>

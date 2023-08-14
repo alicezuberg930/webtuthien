@@ -1,5 +1,3 @@
-import "../styles/colors.css";
-
 export default function Section({ title }) {
   return (
     <div className="container mt-4 mb-4">

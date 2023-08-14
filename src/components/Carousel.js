@@ -1,8 +1,13 @@
-import "../styles/colors.css";
+import Section from "./Section";
+import { importAll } from "../utils/import_img";
+const images = importAll(
+  require.context("../assets/donation_image", false, /\.(png|jpe?g|svg)$/)
+);
 
 export default function Carousel() {
   return (
     <div className="container mt-5 mb-5">
+      <Section title={"SẢN PHẨM QUYÊN GÓP CỦA NHÓM"} />
       <div
         id="carouselExampleControls"
         className="carousel slide"
@@ -10,184 +15,103 @@ export default function Carousel() {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <div className="d-flex">
-              <div className="card">
+            <div className="row">
+              <div className="bg-light m-0 col-sm-12 col-md-4 col-lg-4">
                 <div className="image-wrapper">
                   <img
-                    className=""
-                    src="https://xcdn.next.co.uk/COMMON/Items/Default/Default/Publications/G26/shotview/8008/351-715s.jpg"
+                    src={images["nuoc-uong-dong-chai-4-300x300.jpg"]}
                     alt="Card image cap"
                   />
                 </div>
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  {/* <a href="#" className="btn btn-primary">
-                    Go somewhere
-                  </a> */}
+                  <span className="card-title">
+                    Sản phẩm quyên góp từ thiện
+                  </span>
+                  <h5 className="card-text">
+                    Nước uống đóng chai - 24 chai/thùng
+                  </h5>
+                  <strong>70.000 đ</strong>
                 </div>
               </div>
-              <div className="card">
+              <div className="bg-light m-0 col-sm-12 col-md-4 col-lg-4">
                 <div className="image-wrapper">
                   <img
-                    className=""
-                    src="https://xcdn.next.co.uk/COMMON/Items/Default/Default/Publications/G26/shotview/8008/351-715s.jpg"
+                    src={images["moc-khoa-nhua-treo-deo-1-300x300.jpeg"]}
                     alt="Card image cap"
                   />
                 </div>
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  {/* <a href="#" className="btn btn-primary">
-                    Go somewhere
-                  </a> */}
+                  <span className="card-title">
+                    Sản phẩm quyên góp từ thiện
+                  </span>
+                  <h5 className="card-text">Móc khoá nhựa trong dẻo</h5>
+                  <strong>10.000 đ</strong>
                 </div>
               </div>
-              <div className="card">
+              <div className="bg-light m-0 col-sm-12 col-md-4 col-lg-4">
                 <div className="image-wrapper">
                   <img
-                    className=""
-                    src="https://xcdn.next.co.uk/COMMON/Items/Default/Default/Publications/G26/shotview/8008/351-715s.jpg"
+                    src={images["bo-ly-anh-sang-tu-thien-2019-300x300.jpg"]}
                     alt="Card image cap"
                   />
                 </div>
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  {/* <a href="#" className="btn btn-primary">
-                    Go somewhere
-                  </a> */}
+                  <span className="card-title">
+                    Sản phẩm quyên góp từ thiện
+                  </span>
+                  <h5 className="card-text">Bộ ly thuỷ tinh hộp 6 cái</h5>
+                  <strong>120.000 đ</strong>
                 </div>
               </div>
             </div>
           </div>
           <div className="carousel-item">
-            <div className="d-flex">
-              <div className="card">
+            <div className="row">
+              <div className="bg-light m-0 col-sm-12 col-md-4 col-lg-4">
                 <div className="image-wrapper">
                   <img
-                    className=""
-                    src="https://xcdn.next.co.uk/COMMON/Items/Default/Default/Publications/G26/shotview/8008/351-715s.jpg"
+                    src={images["non-thoi-trang-soc-dua-2-300x300.jpg"]}
                     alt="Card image cap"
                   />
                 </div>
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  {/* <a href="#" className="btn btn-primary">
-                    Go somewhere
-                  </a> */}
+                  <span className="card-title">
+                    Sản phẩm quyên góp từ thiện
+                  </span>
+                  <h5 className="card-text">Nón thời trang sọc dưa </h5>
+                  <strong>5.000 đ</strong>
                 </div>
               </div>
-              <div className="card">
+              <div className="bg-light m-0 col-sm-12 col-md-4 col-lg-4">
                 <div className="image-wrapper">
                   <img
-                    className=""
-                    src="https://xcdn.next.co.uk/COMMON/Items/Default/Default/Publications/G26/shotview/8008/351-715s.jpg"
+                    src={images["tui-rut-du-lich-anh-sang-tu-thien.jpg"]}
                     alt="Card image cap"
                   />
                 </div>
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  {/* <a href="#" className="btn btn-primary">
-                    Go somewhere
-                  </a> */}
+                  <span className="card-title">
+                    Sản phẩm quyên góp từ thiện
+                  </span>
+                  <h5 className="card-text">
+                    Túi rút du lịch vải chịu lực tốt
+                  </h5>
+                  <strong>60.000 ₫</strong>
                 </div>
               </div>
-              <div className="card">
+              <div className="bg-light m-0 col-sm-12 col-md-4 col-lg-4">
                 <div className="image-wrapper">
                   <img
-                    className=""
-                    src="https://xcdn.next.co.uk/COMMON/Items/Default/Default/Publications/G26/shotview/8008/351-715s.jpg"
+                    src={images["Viet-bic-xanh-nhua-ma-kim-loai-3-300x300.jpg"]}
                     alt="Card image cap"
                   />
                 </div>
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  {/* <a href="#" className="btn btn-primary">
-                    Go somewhere
-                  </a> */}
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="carousel-item">
-            <div className="d-flex">
-              <div className="card">
-                <div className="image-wrapper">
-                  <img
-                    className=""
-                    src="https://xcdn.next.co.uk/COMMON/Items/Default/Default/Publications/G26/shotview/8008/351-715s.jpg"
-                    alt="Card image cap"
-                  />
-                </div>
-                <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  {/* <a href="#" className="btn btn-primary">
-                    Go somewhere
-                  </a> */}
-                </div>
-              </div>
-              <div className="card">
-                <div className="image-wrapper">
-                  <img
-                    className=""
-                    src="https://xcdn.next.co.uk/COMMON/Items/Default/Default/Publications/G26/shotview/8008/351-715s.jpg"
-                    alt="Card image cap"
-                  />
-                </div>
-                <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  {/* <a href="#" className="btn btn-primary">
-                    Go somewhere
-                  </a> */}
-                </div>
-              </div>
-              <div className="card">
-                <div className="image-wrapper">
-                  <img
-                    className=""
-                    src="https://xcdn.next.co.uk/COMMON/Items/Default/Default/Publications/G26/shotview/8008/351-715s.jpg"
-                    alt="Card image cap"
-                  />
-                </div>
-                <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  {/* <a href="#" className="btn btn-primary">
-                    Go somewhere
-                  </a> */}
+                  <span className="card-title">
+                    Sản phẩm quyên góp từ thiện
+                  </span>
+                  <h5 className="card-text">Viết bic xanh nhựa mạ kim loại</h5>
+                  <strong>10.000 đ</strong>
                 </div>
               </div>
             </div>

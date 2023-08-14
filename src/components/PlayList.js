@@ -2,11 +2,11 @@ import React from "react";
 
 function IFrameItems(index, videos) {
   return (
-    <div className="d-flex justify-content-center">
+    <div className="row">
       {videos.slice(index * 3, index * 3 + 3).map((video) => {
         const VideoID = "https://www.youtube-nocookie.com/embed/" + video;
         return (
-          <div className="mr-3">
+          <div className="d-flex mt-2 mb-2 justify-content-center col-lg-4 col-md-12 col-sm-12">
             <iframe
               title={video}
               key={video}
@@ -25,8 +25,9 @@ function IFrameItems(index, videos) {
 }
 
 const PlayList = ({ id, videos }) => {
+  let TempVideos = videos.reverse();
   let VideoArray = [];
-  for (let i = 0; i < videos.length / 3; i++) {
+  for (let i = 0; i < TempVideos.length / 3; i++) {
     VideoArray.push(i);
   }
   return (
@@ -38,11 +39,11 @@ const PlayList = ({ id, videos }) => {
               <>
                 {index == 0 ? (
                   <div className="carousel-item active">
-                    {IFrameItems(index, videos)}
+                    {IFrameItems(index, TempVideos)}
                   </div>
                 ) : (
                   <div className="carousel-item">
-                    {IFrameItems(index, videos)}
+                    {IFrameItems(index, TempVideos)}
                   </div>
                 )}
               </>

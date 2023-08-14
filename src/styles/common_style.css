@@ -1,3 +1,21 @@
+@font-face {
+  font-family: UTM_HelvetIns;
+  src: url("../assets/font/UTM_HelvetIns.ttf");
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: purple;
+}
+
 .main-theme {
   color: purple;
 }
@@ -8,6 +26,8 @@
 
 .dotted-horizontal-divider {
   border-bottom: 2px dotted purple;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .card {
@@ -16,14 +36,19 @@
 }
 
 .image-wrapper {
-  height: 30vh;
+  height: 16rem;
 }
 
 .image-wrapper img {
   object-fit: cover;
-  max-height: 100%;
+  height: 100%;
   width: 100%;
 }
+
+.card-img-top:hover {
+  transition: 0.5s ease-in-out;
+  transform: translateY(-5px);
+} 
 
 /* .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -82,5 +107,41 @@
 
 .image-container-2 {
   border: 10px solid transparent;
-  border-image: url(../assets/border.png) 30 round;
+  border-image: url(../assets/other/border.png) 30 round;
+}
+
+.purple-border {
+  -webkit-filter: drop-shadow(3px 3px 0 purple) drop-shadow(-3px -3px 0 purple);
+  filter: drop-shadow(3px 3px 0 purple) drop-shadow(-3px -3px 0 purple);
+}
+
+#overlay {
+  position: fixed;
+  display: block;
+  width: 70%;
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  cursor: pointer;
+}
+
+#background-overlay {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 998;
+  background-color: rgba(87, 87, 87, 0.5);
+}
+
+.clamp-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
 }

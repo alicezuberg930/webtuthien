@@ -1,5 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import "../styles/colors.css";
+import { Link } from "react-router-dom";
 import { importAll } from "../utils/import_img";
 const images = importAll(
   require.context("../assets/other", false, /\.(png|jpe?g|svg)$/)
@@ -9,7 +8,7 @@ export default function Header() {
   return (
     <header id="header-bar" className="bg-light">
       <nav className="navbar navbar-expand-md navbar-dark font-weight-bold d-flex">
-        <a href="/" className="position-relative">
+        <a href="/webtuthien" className="position-relative">
           <img
             src={images["logo.png"]}
             width="50"
@@ -31,7 +30,10 @@ export default function Header() {
         </button>
         <span className="navbar-text collapse navbar-collapse d-flex flex-column align-items-start">
           <div className="collapse navbar-collapse navbar-nav d-flex flex-column align-items-end">
-            <h4 className="main-theme collapse navbar-collapse navbar-nav">
+            <h4
+              className="main-theme collapse navbar-collapse navbar-nav"
+              style={{ fontFamily: "UTM_HelvetIns" }}
+            >
               ÁNH SÁNG TỪ THIỆN
             </h4>
             <span className="text-dark collapse navbar-collapse">
@@ -60,15 +62,21 @@ export default function Header() {
                 className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <Link to="/rule" className="text-decoration-none">
+                <Link to="/webtuthien/rule" className="text-decoration-none">
                   <span className="dropdown-item main-theme">Quy định</span>
                 </Link>
-                <Link to="/criteria" className="text-decoration-none">
+                <Link
+                  to="/webtuthien/criteria"
+                  className="text-decoration-none"
+                >
                   <span className="dropdown-item main-theme">
                     Tiêu chí nhóm
                   </span>
                 </Link>
-                <Link to="/structure" className="text-decoration-none">
+                <Link
+                  to="/webtuthien/structure"
+                  className="text-decoration-none"
+                >
                   <span className="dropdown-item main-theme">
                     Cơ cấu tổ chức
                   </span>
@@ -91,25 +99,34 @@ export default function Header() {
                 className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <Link to="/chao-tinh-thuong" className="text-decoration-none">
+                <Link
+                  to="/webtuthien/chao-tinh-thuong"
+                  className="text-decoration-none"
+                >
                   <span className="dropdown-item main-theme">
                     Cháo tình thương
                   </span>
                 </Link>
                 <Link
-                  to="/chuong-trinh-thuong-nien"
+                  to="/webtuthien/chuong-trinh-thuong-nien"
                   className="text-decoration-none"
                 >
                   <span className="dropdown-item main-theme">
                     Chương trình thường niên
                   </span>
                 </Link>
-                <Link to="/ho-tro-hoan-canh" className="text-decoration-none">
+                <Link
+                  to="/webtuthien/ho-tro-hoan-canh"
+                  className="text-decoration-none"
+                >
                   <span className="dropdown-item main-theme">
                     Hỗ trợ hoàn cảnh
                   </span>
                 </Link>
-                <Link to="/tiep-suc-tri-thuc" className="text-decoration-none">
+                <Link
+                  to="/webtuthien/tiep-suc-tri-thuc"
+                  className="text-decoration-none"
+                >
                   <span className="dropdown-item main-theme">
                     Tiếp sức tri thức
                   </span>
@@ -117,7 +134,7 @@ export default function Header() {
               </div>
             </li>
             <li className="nav-item vertical-divider pl-3 pr-3">
-              <Link to="/video" className="text-decoration-none">
+              <Link to="/webtuthien/video" className="text-decoration-none">
                 <span className="nav-link">
                   <span className="main-theme">Video</span>
                 </span>
@@ -139,16 +156,19 @@ export default function Header() {
                 className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <Link to="/design" className="text-decoration-none">
+                <Link to="/webtuthien/design" className="text-decoration-none">
                   <span className="dropdown-item main-theme">Thiết kế</span>
                 </Link>
-                <Link to="/photoshoot" className="text-decoration-none">
+                <Link
+                  to="/webtuthien/photoshoot"
+                  className="text-decoration-none"
+                >
                   <span className="dropdown-item main-theme">Chụp ảnh</span>
                 </Link>
               </div>
             </li>
             <li className="nav-item pl-3">
-              <Link to="/contact" className="text-decoration-none">
+              <Link to="/webtuthien/contact" className="text-decoration-none">
                 <span className="nav-link">
                   <span className="main-theme">Liên hệ</span>
                 </span>
