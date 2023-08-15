@@ -1,4 +1,3 @@
-import "../styles/common_style.css";
 import { importAll } from "../utils/import_img";
 import { Link } from "react-router-dom";
 const images = importAll(

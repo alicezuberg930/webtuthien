@@ -16,10 +16,9 @@ function CriteriaPage() {
           <div className="col-12">
             <div className="shadow-lg card w-100">
               <img
-                style={{ objectFit: "cover", height: "25rem" }}
-                className="card-img-top"
+                className="criteria-image card-img-top"
                 src={images["chao-tinh-thuong.jpg"]}
-                alt="Card image cap"
+                alt="chao-tinh-thuong"
               />
               <div className="card-body">
                 <h5 className="card-title main-theme">CHÁO TÌNH THƯƠNG</h5>
@@ -38,10 +37,9 @@ function CriteriaPage() {
           <div className="col-12">
             <div className="shadow-lg card w-100">
               <img
-                style={{ objectFit: "cover", height: "25rem" }}
-                className="card-img-top"
+                className="criteria-image card-img-top"
                 src={images["chuong-trinh-thuong-nien.jpg"]}
-                alt="Card image cap"
+                alt="chuong-trinh-thuong-nien"
               />
               <div className="card-body">
                 <h5 className="card-title main-theme">
@@ -73,10 +71,9 @@ function CriteriaPage() {
           <div className="col-12">
             <div className="shadow-lg card w-100">
               <img
-                style={{ objectFit: "cover", height: "25rem" }}
-                className="card-img-top"
+                className="criteria-image card-img-top"
                 src={images["hoan-canh-kho-khan.jpg"]}
-                alt="Card image cap"
+                alt="hoan-canh-kho-khan"
               />
               <div className="card-body">
                 <h5 className="card-title main-theme">
@@ -112,10 +109,9 @@ function CriteriaPage() {
           <div className="col-12">
             <div className="shadow-lg card w-100">
               <img
-                style={{ objectFit: "cover", height: "25rem" }}
-                className="card-img-top"
+                className="criteria-image card-img-top"
                 src={images["tiep-suc-tri-thuc.jpg"]}
-                alt="Card image cap"
+                alt="tiep-suc-tri-thuc"
               />
               <div className="card-body">
                 <h5 className="card-title main-theme">TIẾP SỨC TRI THỨC</h5>

@@ -155,3 +155,20 @@ body::-webkit-scrollbar-thumb {
   line-clamp: 2;
   -webkit-box-orient: vertical;
 }
+
+.criteria-image {
+  object-fit: cover;
+  height: 35rem;
+}
+
+@media (max-width: 768px) {
+  .criteria-image {
+    height: 25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .criteria-image {
+    height: 20rem;
+  }
+}

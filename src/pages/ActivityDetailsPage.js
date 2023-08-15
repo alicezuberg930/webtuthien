@@ -1,5 +1,4 @@
 import Header from "../components/Header";
-import Section from "../components/Section";
 import Footer from "../components/Footer";
 import { useLocation } from "react-router-dom";
 import { importAll } from "../utils/import_img";
@@ -31,19 +30,16 @@ function ActivityDetailsPage() {
                 src={images[details.banner]}
                 width={"100%"}
                 height={"100%"}
+                alt={details.banner}
               />
             </div>
           </div>
         </div>
         <div className="row mt-4">
-          {details.description.includes("table") ? (
-            <div
-              className="col-12"
-              dangerouslySetInnerHTML={{ __html: details.description }}
-            ></div>
-          ) : (
-            <div className="col-12">{details.description}</div>
-          )}
+          <div
+            className="col-12"
+            dangerouslySetInnerHTML={{ __html: details.description }}
+          ></div>
         </div>
         <div className="row mt-4 mb-4">
           <div className="col-12 d-flex flex-column align-items-center">
@@ -55,9 +51,14 @@ function ActivityDetailsPage() {
               return (
                 <div
                   className="image-wrapper image-container mt-2 mb-2"
-                  style={{ width: "80%", height: "100%" }}
+                  style={{ width: "65%", height: "100%" }}
                 >
-                  <img src={images[image]} width={"100%"} height={"100%"} />
+                  <img
+                    src={images[image]}
+                    width={"100%"}
+                    height={"100%"}
+                    alt={image}
+                  />
                 </div>
               );
             })}

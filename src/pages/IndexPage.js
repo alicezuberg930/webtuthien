@@ -7,7 +7,6 @@ import GoogleMap from "../components/GoogleMap";
 import Footer from "../components/Footer";
 import AlertImage from "../assets/other/thong-bao.jpg";
 import { Link } from "react-router-dom";
-import { right } from "@popperjs/core";
 
 function IndexPage() {
   return (
