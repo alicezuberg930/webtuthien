@@ -1,8 +1,5 @@
 import { Link } from "react-router-dom";
-import { importAll } from "../utils/import_img";
-const images = importAll(
-  require.context("../assets/other", false, /\.(png|jpe?g|svg)$/)
-);
+import Logo from "../assets/icon/logo.png";
 
 export default function Header() {
   return (
@@ -10,10 +7,11 @@ export default function Header() {
       <nav className="navbar navbar-expand-md navbar-dark font-weight-bold d-flex">
         <a href="/webtuthien" className="position-relative">
           <img
-            src={images["logo.png"]}
+            src={Logo}
             width="50"
-            height="50"
+            height="55"
             className="d-inline-block mr-3"
+            alt="logo"
           />
         </a>
         <button

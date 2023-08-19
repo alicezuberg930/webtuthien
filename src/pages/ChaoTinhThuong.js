@@ -28,7 +28,8 @@ function ChaoTinhThuong() {
         ],
         title: "Cháo Tình Thương 07/2018",
         description:
-          "Xin chân thành cảm ơn các nhà hảo tâm, các thành viên & tình nguyện viên rất nhiều. Nhóm đã thực hiện trao >600 suất cháo thịt bằm, >1000 đ gói mì & >500 chai nước suối đến các bệnh nhân ở tại BV Chợ Rẫy vào ngày 22.07.2018. Chúc sức khoẻ & hạnh phúc đến với mọi người.",
+          `Xin chân thành cảm ơn các nhà hảo tâm, các thành viên & tình nguyện viên rất nhiều. Nhóm đã thực hiện trao >600 suất cháo thịt bằm, >1000 đ gói 
+          mì & >500 chai nước suối đến các bệnh nhân ở tại BV Chợ Rẫy vào ngày 22.07.2018. Chúc sức khoẻ & hạnh phúc đến với mọi người.`,
         key: 1,
       },
       {

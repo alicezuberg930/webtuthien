@@ -13,13 +13,13 @@ function VideoPage() {
   const [playList_4, setPlayList_4] = useState([]);
 
   function getPlaylist(PLAYLIST_ID, setPlayList) {
-    if (JSON.parse(localStorage.getItem(PLAYLIST_ID)) != null) {
-      setPlayList(JSON.parse(localStorage.getItem(PLAYLIST_ID)));
-      return;
-    }
+    // if (JSON.parse(localStorage.getItem(PLAYLIST_ID)) != null) {
+    //   setPlayList(JSON.parse(localStorage.getItem(PLAYLIST_ID)));
+    //   return;
+    // }
     axios
       .get(
-        "https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=20&playlistId=" +
+        "https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=50&playlistId=" +
           PLAYLIST_ID +
           "&key=" +
           Constants.API_KEY
@@ -30,11 +30,17 @@ function VideoPage() {
         data.items.map((item) =>
           contentDetails.push(item.contentDetails.videoId)
         );
-        setPlayList([...new Set(contentDetails)]);
-        localStorage.setItem(
-          PLAYLIST_ID,
-          JSON.stringify([...new Set(contentDetails)])
+        setPlayList([...new Set(contentDetails)]); 
+        console.log(
+          "https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=50&playlistId=" +
+            PLAYLIST_ID +
+            "&key=" +
+            Constants.API_KEY
         );
+        // localStorage.setItem(
+        //   PLAYLIST_ID,
+        //   JSON.stringify([...new Set(contentDetails)])
+        // );
       })
       .catch((err) => {
         console.error(err);
@@ -47,20 +53,6 @@ function VideoPage() {
     getPlaylist(Constants.PLAYLIST_3, setPlayList_3);
     getPlaylist(Constants.PLAYLIST_4, setPlayList_4);
   }, []);
-
-  const myForm = async (e) => {
-    e.preventDefault();
-    // console.log(playList_1);
-    // console.log(playList_2);
-    // console.log(playList_3);
-    // console.log([...new Set(playList_4)]);
-    // console.log(
-    //   "https://youtube.googleapis.com/youtube/v3/playlistItems?part=contentDetails&maxResults=20&playlistId=" +
-    //     Constants.PLAYLIST_1 +
-    //     "&key=" +
-    //     Constants.API_KEY
-    // );
-  };
 
   return (
     <div>
@@ -79,3 +71,19 @@ function VideoPage() {
 }
 
 export default VideoPage;
+
+// https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=5&pageToken=EAAaBlBUOkNBVQ&playlistId=PLPKGUz9dF9sLHRvV9ENks8WQrWNQsb1SD&key=AIzaSyBEUVRN522VqnGAxtZLtq9d9yYejaE05T8
+
+// {
+//   "kind": "youtube#playlistItemListResponse",
+//   "etag": etag,
+//   "nextPageToken": string,
+//   "prevPageToken": string,
+//   "pageInfo": {
+//     "totalResults": integer,
+//     "resultsPerPage": integer
+//   },
+//   "items": [
+//     playlistItem Resource
+//   ]
+// }

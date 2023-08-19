@@ -4,11 +4,11 @@ import youtube from "../assets/icon/youtube.png";
 
 export default function Footer() {
   return (
-    <footer className="text-dark bg-light pl-4 pr-4">
+    <footer className="text-dark bg-light pl-5 pr-5">
       <div className="p-5 border-top">
-        <div className="row">
+        <div className="row pl-5 pr-5">
           <div className="col-lg-6 col-md-12 col-sm-12 justify-content-center">
-            <h3 className="main-theme">THÔNG TIN VỀ CHÚNG TÔI</h3>
+            <h4 className="main-theme">THÔNG TIN VỀ CHÚNG TÔI</h4>
             <ul className="nav flex-column">
               <li className="nav-item mb-1">
                 <span className="p-0 main-theme">Cháo tình thương: </span>
@@ -56,13 +56,13 @@ export default function Footer() {
             </ul>
           </div>
           <div className="col-lg-6 col-md-12 col-sm-12">
-            <h3 className="main-theme">THEO DÕI CHÚNG TÔI</h3>
+            <h4 className="main-theme">THEO DÕI CHÚNG TÔI</h4>
             <div
               className="fb-page"
               data-href="https://www.facebook.com/profile.php?id=100064669450553"
               data-tabs="timeline"
-              data-width="400"
-              data-height="70"
+              data-height="330"
+              data-width="330"
               data-small-header="false"
               data-adapt-container-width="false"
               data-hide-cover="false"
